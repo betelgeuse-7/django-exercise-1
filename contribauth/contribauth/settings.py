@@ -29,7 +29,7 @@ SECRET_KEY = 'fmxz*w90ridz2k^reg(5j#2cw!^w50k*=)$7lz+mfup7_58fzo'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['my-post-app.herokuapp.com']
+ALLOWED_HOSTS = ['herokuapp.com']
 
 
 # Application definition
