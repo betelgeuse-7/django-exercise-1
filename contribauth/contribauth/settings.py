@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'fmxz*w90ridz2k^reg(5j#2cw!^w50k*=)$7lz+mfup7_58fzo'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['betelgeuse7.pythonanywhere.com']
 
