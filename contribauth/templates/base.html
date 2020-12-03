@@ -24,7 +24,7 @@
             </li>
             {% if not user.is_authenticated %}
             <li class="nav-item active">
-                <a href="/registration" class="nav-link">Register</a>
+                <a href=" {% url 'usermodel:registration_page' %} " class="nav-link">Register</a>
             </li>
             {% endif %}
             {% if user.is_superuser %}
@@ -44,7 +44,7 @@
             {% endif %}
             
             <li class="nav-item">
-              <a href="posts/" class="nav-link">Posts</a>
+              <a href=" {% url 'usermodel:post_page' %} " class="nav-link">Posts</a>
             </li>
 
             <li class="nav-item">Browsing as : {{request.user}} </li>
